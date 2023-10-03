@@ -18,3 +18,7 @@ const studentInfo = { ...student, ...address };
 const { city, degree } = address;
 
 console.log(degree);
+
+// https://api.github.com/users/Noaman-Saleem-Portfolio
+
+// https://randomuser.me/
