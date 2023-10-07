@@ -1,62 +1,81 @@
-// function addTwoNumbers(number1, number2){
+// function greet()
 
-//     console.log(number1 + number2);
+// function addTwoNumbers(number1, number2) {
+//   console.log(number1 + number2);
 // }
 
-function addTwoNumbers(number1, number2) {
-  // let result = number1 + number2
-  // return result
-  return number1 + number2;
-}
+// function addTwoNumbers(number1, number2) {
+//   // let result = number1 + number2;
+//   // return result;
+//   return number1 + number2;
+// }
 
-const result = addTwoNumbers(3, 5);
+// const result = addTwoNumbers(3, 5);
 
 // console.log("Result: ", result);
 
-function loginUserMessage(username = "sam") {
-  if (!username) {
-    console.log("PLease enter a username");
-    return;
-  }
-  return `${username} just logged in`;
-}
+// ============================================================================================================================
 
-// console.log(loginUserMessage("Noaman"))
-// console.log(loginUserMessage("Noaman"))
-
-//passing indefinite numbers of parameters
-function calculateCartPrice(...num1) {
-  return num1;
-}
-// function calculateCartPrice(val1, val2, ...num1) {
-//   return num1;
+//Default Value as well
+// function loginUserMessage(username) {
+//   if (!username) {
+//     console.log("PLease enter a username");
+//     return;
+//   }
+//   if (typeof username === "number") {
+//     console.log("Please pass string value");
+//     return;
+//   }
+//   return `${username} just logged in`;
 // }
 
-console.log(calculateCartPrice(200, 400, 500, 2000));
+// console.log(loginUserMessage("Noaman"));
+// console.log(loginUserMessage("Ali"));
+
+// ============================================================================================================================
+
+//passing indefinite numbers of parameters
+// function calculateCartPrice(...num1) {
+//   console.log(num1);
+// }
+// function calculateCartPrice(val1, val2, ...num1) {
+//   console.log(val1);
+//   console.log(val2);
+//   console.log(num1);
+// }
+
+// console.log(calculateCartPrice(200, 400, 500, 2000));
+
+// ============================================================================================================================
 
 //passing objects as parameters
-const user = {
-  username: "noaman",
-  prices: 199,
-};
+// const user = {
+//   username: "noaman",
+//   prices: 199,
+// };
 
-function handleObject(anyobject) {
-  console.log(
-    `Username is ${anyobject.username} and price is ${anyobject.price}`
-  );
-}
+// function handleObject(anyobject) {
+//   console.log(
+//     `Username is ${anyobject.username} and price is ${anyobject.price}`
+//   );
+// }
 
-// handleObject(user)
-handleObject({
-  username: "ali",
-  price: 399,
-});
+// handleObject(user);
 
-const myNewArray = [200, 400, 100, 600];
+// handleObject({
+//   username: "ali",
+//   price: 399,
+// });
 
-function returnSecondValue(getArray) {
-  return getArray[1];
-}
+// ============================================================================================================================
+
+//passing Arrays as parameters
+
+// const myNewArray = [200, 400, 100, 600];
+
+// function returnSecondValue(getArray) {
+//   return getArray[1];
+// }
 
 // console.log(returnSecondValue(myNewArray));
-console.log(returnSecondValue([200, 400, 500, 1000]));
+// console.log(returnSecondValue([200, 400, 500, 1000]));
