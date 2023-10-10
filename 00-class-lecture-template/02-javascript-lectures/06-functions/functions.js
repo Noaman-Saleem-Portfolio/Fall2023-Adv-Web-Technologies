@@ -16,6 +16,7 @@
 
 // ============================================================================================================================
 
+//Do boolean and if/slides before this please
 //Default Value as well
 // function loginUserMessage(username) {
 //   if (!username) {
@@ -34,7 +35,7 @@
 
 // ============================================================================================================================
 
-//passing indefinite numbers of parameters
+//passing indefinite numbers of parameters (REST Parameters)
 // function calculateCartPrice(...num1) {
 //   console.log(num1);
 // }
