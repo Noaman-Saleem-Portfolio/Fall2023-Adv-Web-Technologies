@@ -35,9 +35,23 @@ const students = [
 //   }
 // }
 
-for (let std of students) {
-  console.log(std);
-  for (let stdDetails of std) {
-    console.log(stdDetails);
-  }
-}
+// for (let std of students) {
+//   console.log(std);
+//     for (let stdDetails of std) {
+//       console.log(stdDetails);
+//     }
+// }
+
+const magicSquare = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+];
+
+// for (let row of magicSquare) {
+//   let sum = 0;
+//   for (let col of row) {
+//     sum = sum + col;
+//   }
+//   console.log(`Sum of ${row} is = ${sum}`);
+// }
