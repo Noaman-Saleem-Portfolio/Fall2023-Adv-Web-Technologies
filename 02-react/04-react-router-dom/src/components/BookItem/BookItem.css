@@ -1,0 +1,17 @@
+
+.card{
+    /* background-color: aqua; */
+    flex-basis: 330px;
+    border: 1px solid black;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+
+.card .bookImage{
+    text-align: center;
+}
+
+.card img{
+    width: 50%;
+    /* height: 300px; */
+}
