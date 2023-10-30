@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+
+p{
+    margin-bottom: 10px;
+}

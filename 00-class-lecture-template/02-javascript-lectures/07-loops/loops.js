@@ -20,9 +20,9 @@ const students = [
   ["Hamza", 24, 3.9, "Chiniot"],
 ];
 
-// for (let i = 0; i < students.length; i++) {
-//   console.log(students[i]);
-// }
+for (let i = 0; i < students.length; i++) {
+  console.log(students[i]);
+}
 
 // for (let std of students) {
 //   console.log(std);

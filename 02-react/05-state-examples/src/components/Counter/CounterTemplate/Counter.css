@@ -1,0 +1,38 @@
+.counter{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: url("https://images.unsplash.com/photo-1597687210367-a4915552d886?auto=format&fit=crop&q=80&w=1528&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position: center;
+}
+
+.counterBox{
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 20px;
+    width: 400px;
+    height: 200px;
+    color: #fff;
+    text-align: center;
+}
+
+.counter p{
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.counter .buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.counter .buttons button{
+    background-color: brown;
+    color: #fff;
+    border: none;
+    flex-basis: 40px;
+    margin: 0 20px;
+    border-radius: 15px;
+    font-size: 20px;
+}

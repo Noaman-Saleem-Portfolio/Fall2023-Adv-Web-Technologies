@@ -29,15 +29,15 @@ const students = [
 // }
 
 // for (let i = 0; i < students.length; i++) {
-//   //   console.log(students[i]);
+//   console.log(students[i]);
 //   for (let j = 0; j < students[i].length; j++) {
 //     console.log(students[i][j]);
 //   }
 // }
 
-for (let std of students) {
-  console.log(std);
-  for (let stdDetails of std) {
-    console.log(stdDetails);
-  }
-}
+// for (let std of students) {
+//   console.log(std);
+//   for (let stdDetails of std) {
+//     console.log(stdDetails);
+//   }
+// }
