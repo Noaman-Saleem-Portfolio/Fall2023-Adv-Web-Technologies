@@ -1,0 +1,18 @@
+.coin-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.coin-cards-items{
+    border: 1px solid black;
+    padding: 20px;
+    flex-basis: 300px;
+    text-align: center;
+}
+
+.coin-cards img{
+    width: 100px;
+}
