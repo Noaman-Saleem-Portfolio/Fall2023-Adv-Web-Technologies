@@ -2,7 +2,7 @@ import { createContext, useContext, useState } from "react";
 
 
 //Create the context
-const CounterContext = createContext(11) 
+const CounterContext = createContext(11)
 
 export const useCounter = () => useContext(CounterContext)
 
