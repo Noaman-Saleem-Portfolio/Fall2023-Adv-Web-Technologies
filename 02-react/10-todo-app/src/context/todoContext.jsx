@@ -38,7 +38,7 @@ export const TodoContextProvider = ({children}) => {
                 payload: todo
             })
         }
-
+ 
     return <TodoContext.Provider value={{
         todos : state.todos,
         delTodo,
