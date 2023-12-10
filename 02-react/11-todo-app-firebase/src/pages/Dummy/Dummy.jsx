@@ -6,8 +6,8 @@ const Product = () => {
       <h1>Create Product</h1>
 
       <form onSubmit={handleSubmit}>
-        <input type="text" placeholder="Todo Title" />
-        <input type="text" placeholder="Todo Description" />
+        <input type="text" placeholder="Product Name" />
+        <input type="text" placeholder="Product Category" />
 
         <button>Create</button>
       </form>
