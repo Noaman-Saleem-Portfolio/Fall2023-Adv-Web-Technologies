@@ -12,7 +12,16 @@ router.get("/", (req, res) => {
 //create new blog
 router.post("/blog/new", blogController.create);
 
-//get all blogs
+//read all blogs
 router.get("/blog/all", blogController.getAll);
+
+//read blog by id
+router.get("/blog/:id", blogController.getBlogById);
+
+//update blog
+router.patch("/blog/:id", blogController.updateBlog);
+
+//delete blog
+router.delete("/blog/:id", blogController.deleteBlog);
 
 module.exports = router;
